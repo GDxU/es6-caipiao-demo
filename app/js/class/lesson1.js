@@ -1,11 +1,21 @@
-function test() {
-    // 即使 k 是 const 声明，但是因为 k 是对象，对象是引用类型，引用类型其实是内存的一个指针指向的内存，
-    // const 是对是内存的一个指针不变，但对象本身可以改变
-    const k = {
-        a: 1
-    };
-    k.b = 3;
-    console.log(k);
+function test(){
+  // for(let i=1;i<3;i++){
+  //   console.log(i);
+  // }
+  // console.log(i);
+  let a = 1;
+  // let a = 2;
 }
 
-test();
+function last(){
+  const PI=3.1415926;
+  const k={
+    a:1
+  }
+  k.b=3;
+  console.log(PI,k);
+}
+
+
+// test();
+last();
